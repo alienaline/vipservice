@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vipservice/static/css/main.1e130fbe.css",
-    "main.js": "/vipservice/static/js/main.e208065a.js",
+    "main.js": "/vipservice/static/js/main.6727ab1b.js",
     "index.html": "/vipservice/index.html",
     "main.1e130fbe.css.map": "/vipservice/static/css/main.1e130fbe.css.map",
-    "main.e208065a.js.map": "/vipservice/static/js/main.e208065a.js.map"
+    "main.6727ab1b.js.map": "/vipservice/static/js/main.6727ab1b.js.map"
   },
   "entrypoints": [
     "static/css/main.1e130fbe.css",
-    "static/js/main.e208065a.js"
+    "static/js/main.6727ab1b.js"
   ]
 }
