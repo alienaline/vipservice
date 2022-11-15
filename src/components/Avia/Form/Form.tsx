@@ -10,7 +10,7 @@ interface IProps {
     id: string
 }
 
-interface IForm {
+export interface IForm {
     from: string,
     to: string,
     departureDate: string,

@@ -1,14 +1,15 @@
 import React from "react";
-import { Controller } from "react-hook-form";
+import { Controller, Control } from "react-hook-form";
 import InputStyles from "./Input.module.css";
 import warningIcon from "../../assets/img/warningIcon.png";
+import { IForm } from "../Avia/Form/Form";
 
 interface IInputProps {
     legend: string,
     placeholder?: string,
     type: string,
-    name: string,
-    control: any,
+    name: "from" | "to" | "departureDate" | "arrivalDate",
+    control: Control<IForm>,
     rules?: object,
     helperText?: string,
     min?: string,
