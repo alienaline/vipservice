@@ -1,0 +1,22 @@
+.button {
+    background-color: #5C87DB;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin: 23px 29px;
+}
+
+.button:hover {
+    background-color: #3E67B7;
+}
+
+.button:active {
+    background-color: #5C87DB;
+    color: #FFFFFF80;
+}
+
+.button:disabled {
+    background-color: #B7BAC1;
+}

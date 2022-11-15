@@ -1,0 +1,43 @@
+.cardContainer {
+    background-color: inherit;
+    border-radius: 15px;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #DDE3EE;
+    position: relative;
+}
+
+.cardSticker {
+    color: white;
+    background-color: #8BA5D8;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    font-weight: 600;
+    padding: 6px 24px;
+    border-radius: 15px 0px;
+}
+
+.line {
+    width: 100%;
+    border: 1px dashed #5C87DB;
+    margin: 0;
+}
+
+.cardCost {
+    height: 100%;
+}
+
+.cost {
+    font-size: 32px;
+    font-weight: 700;
+    color: #232323;
+    margin: auto 29px;
+}

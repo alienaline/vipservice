@@ -1,7 +1,7 @@
 import React from "react";
 import { Controller } from "react-hook-form";
 import InputStyles from "./Input.module.css";
-import warningIcon from "../../../assets/img/warningIcon.png";
+import warningIcon from "../../assets/img/warningIcon.png";
 
 interface IInputProps {
     legend: string,
@@ -33,6 +33,7 @@ function Input(props: IInputProps) {
                         placeholder={props.placeholder}
                         value={field.value || ""}
                         min={props.min}
+                        max={props.max}
                         onChange={(event) => field.onChange(event)} />
                     <p className={InputStyles.helperText}>
                         {props.helperText && <img className={InputStyles.warningIcon} src={warningIcon} />}

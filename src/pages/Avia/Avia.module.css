@@ -1,0 +1,19 @@
+.aviaContainer {
+    border-radius: 15px;
+    background-color: #5C87DB;
+}
+
+.formContainer {
+    margin: 17px 30px 30px 30px;
+}
+
+.submitContainer {
+    background-color: #ffffff;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    display: flex;
+    justify-content: end;
+    border-radius: 0 0 15px 15px;
+}
+
+
+

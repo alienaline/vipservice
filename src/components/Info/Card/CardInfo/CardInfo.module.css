@@ -1,0 +1,65 @@
+.cardInfoContainer {
+    display: flex;
+    margin: 41px 0;
+}
+
+.cardLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 24px;
+}
+
+.logoName {
+    color: #5C5C5C;
+    font-size: 18px;
+    margin: 8px;
+}
+
+.cardInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    margin: auto 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+.timing {
+    margin: 25px 25px 0 15px;
+}
+
+.button {
+    border-radius: 10px;
+    border: 1px solid #B7BAC1;
+    color: #5C5C5C;
+    background-color: inherit;
+    padding: 7px 7px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #DDE3EE;
+    border: none;
+    padding: 8px 8px;
+    color: #232323;
+}
+
+.button[data-state="active"] {
+    background-color: #DDE3EE;
+    border: none;
+    padding: 8px 8px;
+    color: #232323;
+}
+
+.luggageInfo {
+    margin: auto 20px;
+}
+
+.luggageLogo {
+    margin: 5px;
+}
